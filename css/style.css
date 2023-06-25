@@ -70,63 +70,23 @@ img {
   display: flex;
 }
 
-
-/* S N O W */
-
-/* #snow {
-  background: none;
-  background-image: url('../assets/s1.png'), url('../assets/s2.png'), url('../assets/s3.png');
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index:-1;
-  -webkit-animation: snow 20s linear infinite;
-  -moz-animation: snow 20s linear infinite;
-  -ms-animation: snow 20s linear infinite;
-  animation: snow 20s linear infinite;
-}
-@keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-@-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
-}
-@-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-@-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+form>input[type="text"] {
+  background-color: #171717;
+  max-height: 3vh;
+  min-width: 192px;
+  max-width: 80vh;
+  font-size: 2vh;
+  padding-left: 1vw;
+  margin: 1vw;
+  border: 0px solid #171717;
+  -webkit-border-radius: 3vw;
+  -moz-border-radius: 3vw;
+  border-radius: 3vw;
+  vertical-align: top;
 }
 
-#toggle-snow {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin-right: 15px;
-  margin-top: 15px;
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+form>input:focus-visible {
+  background-color: #171717;
+  border: 0px solid #171717;
+  outline: none !important;
 }
-#toggle-snow>img{
-  height: 24px;
-  width: auto;
-}
-
-#toggle-snow>img:hover{
-  transform: scale(1.1) rotate(5deg);
-} */

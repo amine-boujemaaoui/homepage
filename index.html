@@ -13,100 +13,108 @@
   <div id="img">
       <img src="assets/J.png" alt="J.png">
   </div>
-  <nav id="nav">
-    <div class="btn-group">
-      <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        anime
-      </button>
-      <ul class="dropdown-menu">
-        <li>
-          <a class="dropdown-item" href="https://www.neko-sama.fr/">neko-sama</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="http://www.mavanimes.co/">mavanimes</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://v2.voiranime.com/?filter=subbed">voiranime</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.japscan.me/">japscan</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://fankai.fr/streaming">fankai</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.adkami.com/agenda">adkami</a>
-        </li>
-      </ul>
+  <div>
+    <div>
+      <form method="get" id="search" action="http://google.com/search">
+        <input type="hidden" name="sites" value="" />
+        <input type="text" name="q" maxlength="255" placeholder="              Search" />
+      </form>
     </div>
-    <div class="btn-group">
-      <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        media
-      </button>
-      <ul class="dropdown-menu">
-        <li>
-          <a class="dropdown-item" href="https://www.youtube.com/">youtube</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.netflix.com/browse">netflix</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.primevideo.com/">prime</a>
-        </li>
-      </ul>
-    </div>
-    <div class="btn-group">
-      <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        school
-      </button>
-      <ul class="dropdown-menu">
-        <li>
-          <a class="dropdown-item"
-            href="https://cas.univ-paris13.fr/cas/login?service=https%3A%2F%2Fent.univ-paris13.fr">ent</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://moodlelms.univ-paris13.fr">moodle</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://mail.google.com/mail/u/0">gmail</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://drive.google.com/drive/u/1/my-drive">drive</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://si-galilee.univ-paris13.fr/salles/sys">ssh</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.office.com/?auth=2">office</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://www.izia-afia.com/app/home">izia</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://cfa-afia.jobteaser.com/fr/dashboard">jobteaser</a>
-        </li>
-      </ul>
-    </div>
-    <div class="btn-group">
-      <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        other
-      </button>
-      <ul class="dropdown-menu">
-        <li>
-          <a class="dropdown-item" href="https://www.arcai.com/netCut/s">netcut</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="http://192.168.1.254">freebox</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://web.whatsapp.com/">whatsapp</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="https://discord.com">discord</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav id="nav">
+      <div class="btn-group">
+        <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          anime
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="https://www.neko-sama.fr/">neko-sama</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="http://www.mavanimes.co/">mavanimes</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://v2.voiranime.com/?filter=subbed">voiranime</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.japscan.me/">japscan</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://fankai.fr/streaming">fankai</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.adkami.com/agenda">adkami</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          media
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="https://www.youtube.com/">youtube</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.netflix.com/browse">netflix</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.primevideo.com/">prime</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          school
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item"
+              href="https://cas.univ-paris13.fr/cas/login?service=https%3A%2F%2Fent.univ-paris13.fr">ent</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://moodlelms.univ-paris13.fr">moodle</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://mail.google.com/mail/u/0">gmail</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://drive.google.com/drive/u/1/my-drive">drive</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://si-galilee.univ-paris13.fr/salles/sys">ssh</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.office.com/?auth=2">office</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://www.izia-afia.com/app/home">izia</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://cfa-afia.jobteaser.com/fr/dashboard">jobteaser</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          other
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="https://www.arcai.com/netCut/s">netcut</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="http://192.168.1.254">freebox</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://web.whatsapp.com/">whatsapp</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="https://discord.com">discord</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <div id="snow"></div>
   <script src="https://unpkg.com/@popperjs/core@2"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
